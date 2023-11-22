@@ -1,0 +1,69 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<style>
+    .signup-container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    input {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    button {
+        background-color: #6A097D;
+        color: #fff;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        button:hover {
+            background-color: #6A097D;
+        }
+</style>
+<div class="text-center">
+    <h1 class="display-4">Book</h1>
+    <div class="w3-cell-row">
+        <div class="w3-card-4" style="width:50%">
+            <img src="img_snowtops.jpg" alt="Alps" style="width:100%">
+            <div class="w3-container w3-center">
+                <p>เรื่อง เอ๋!? ผมต้องเป็นแมวจริง ๆ ด้วยเหรอครับ</p>
+                <p>โดย m i n a r i</p>
+                <p>สำนักพิมพ์mmmmmmmmmz</p>
+                <p>หมวดหมู่นิยายวาย Boy Love / Yaoi</p>
+                <button class="w3-button w3-white w3-border w3-border-red w3-round-large">รายละเอียด</button>
+            </div>
+        </div>
+        <div class="w3-card-4" style="width:50%">
+            <img src="img_snowtops.jpg" alt="Alps" style="width:100%">
+            <div class="w3-container w3-center">
+                <p>เรื่อง โปรดคลั่งรักอย่างมีสติ</p>
+                <p>โดย yupyup</p>
+                <p>สำนักพิมพ์ yupyup.</p>
+                <p>หมวดหมู่นิยายวาย Boy Love / Yaoi</p>
+                <button class="w3-button w3-white w3-border w3-border-red w3-round-large">รายละเอียด</button>
+            </div>
+        </div>
+    </div>
+</div>
+
